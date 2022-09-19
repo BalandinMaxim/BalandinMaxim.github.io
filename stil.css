@@ -6,7 +6,7 @@
 #header
 {
     width: 100%;
-    background-color: rgb(206, 234, 236);
+    background-color: rgb(255, 179, 222);
     padding: 10px 0px 10px 0px;
     height: 120px;
 }
@@ -28,7 +28,7 @@
 
 #h1
 {
-    background-color: rgb(206, 234, 236);
+    background-color: rgb(255, 179, 222);
     padding: 10px;
     color: #1c8f85;
 }
@@ -36,7 +36,7 @@
 #nav
 {
     max-width: 960px;
-    background-color: rgb(206, 234, 236);
+    background-color: rgb(255, 179, 222);
     margin: 0 auto;
     margin-top: 20px;
     padding: 10px;
@@ -66,7 +66,7 @@
 .content
 {
     max-width: 960px;
-    background-color: rgb(206, 234, 236);
+    background-color: rgb(255, 179, 222);
     margin: 0 auto;
     margin-top: 20px;
     padding: 10px;
@@ -74,18 +74,18 @@
 
 .ne_chet
 {
-    background-color: rgb(197, 156, 236);
+    background-color: rgb(73,126,118);
 }
 
 .chet
 {
-    background-color: rgb(243, 125, 115);
+    background-color: rgb(170,240,209);
 }
 
 #footer
 {
     width: 100%;
-    background-color: rgb(206, 234, 236);
+    background-color: rgb(255, 179, 222);
     height: 70px;
     padding: 30px 0px 30px 0px;
     margin-top: 20px;
