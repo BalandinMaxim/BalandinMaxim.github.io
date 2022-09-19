@@ -6,7 +6,7 @@
 #header
 {
     width: 100%;
-    background-color: rgb(255, 179, 222);
+    background-color: rgb(0 255 127);
     padding: 10px 0px 10px 0px;
     height: 120px;
 }
@@ -28,7 +28,7 @@
 
 #h1
 {
-    background-color: rgb(255, 179, 222);
+    background-color: rgb(0 255 127);
     padding: 10px;
     color: #1c8f85;
 }
@@ -36,7 +36,7 @@
 #nav
 {
     max-width: 960px;
-    background-color: rgb(255, 179, 222);
+    background-color: rgb(0 255 127);
     margin: 0 auto;
     margin-top: 20px;
     padding: 10px;
@@ -66,7 +66,7 @@
 .content
 {
     max-width: 960px;
-    background-color: rgb(255, 179, 222);
+    background-color: rgb(0 255 127);
     margin: 0 auto;
     margin-top: 20px;
     padding: 10px;
@@ -85,7 +85,7 @@
 #footer
 {
     width: 100%;
-    background-color: rgb(255, 179, 222);
+    background-color: rgb(0 255 127);
     height: 70px;
     padding: 30px 0px 30px 0px;
     margin-top: 20px;
