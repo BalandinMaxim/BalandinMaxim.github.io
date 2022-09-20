@@ -47,7 +47,6 @@
 {
     margin-left: 0%;
     width: 120px;
-    background-color: rgb(0 255 127);
     margin-right: 300px;
     font-family: 'Georgia', arial, serif;
 
@@ -55,7 +54,6 @@
 #content2
 {
     width: 200px;
-    background-color: rgb(0 255 127);
     margin-right: 300px;
     font-family: 'Georgia', arial, serif;
 }
@@ -63,7 +61,6 @@
 #content3
 {
     width: 100px;
-    background-color: rgb(0 255 127);
     font-family: 'Georgia', arial, serif;
 }
 
@@ -79,6 +76,7 @@
 .conew
 {
     max-width: 960px;
+    background-color: rgb(0 255 127);
     margin: 0 auto;
     margin-top: 5px;
     padding: 150px;
