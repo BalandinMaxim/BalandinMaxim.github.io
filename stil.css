@@ -1,6 +1,7 @@
 #body
 {
     margin:0;
+    background-color:rgb(189,236,182);
 }
 
 #header
@@ -77,11 +78,6 @@
     margin: 0 auto;
     margin-top: 5px;
     padding: 150px;
-}
-
-.list
-{
-    background-color:rgb(189,236,182)
 }
 
 .n_k
