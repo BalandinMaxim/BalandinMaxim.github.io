@@ -28,22 +28,19 @@ footer {
 
 @media (min-width: 768px){
     header{
-        height: 120px;
-    }
+        height: 120px;}
+    #Logoh1{
+        max-width: 960px;}
 
     #logo{
         height: 100px;
-        width: 120px;
-    }
+        width: 120px;}
     #con3{
-        text-align: right;
-    }
+        text-align: right;}
     #con2{
-        text-align: center;
-    }
+        text-align: center;}
     footer{
-        height: 130px;
-    }
+        height: 130px;}
 }
 
 @media (max-width: 768px){
