@@ -5,10 +5,7 @@
 }
 
 #header{
-    width: 100%;
     background-color: rgb(0, 255, 127);
-    padding: 10px 0px 10px 0px;
-    height: 120px;
 }
 
 #Logoh1{
@@ -26,26 +23,14 @@
 
 #h1{
     background-color: rgb(0, 255, 127);
-    padding: 10px;
     color: #1c8f85;
 }
 
 #new{
     max-width: 960px;
     background-color: rgb(0, 255, 127);
-    margin: 0 auto;
-    margin-top: 20px;
-    padding: 10px;
 }
 
-
-
-.content{
-    max-width: 960px;
-    margin: 0 auto;
-    margin-top: 20px;
-    padding: 10px;
-}
 
 .n_k{
     background-color: rgb(73, 126, 118);
@@ -55,12 +40,8 @@
     background-color: rgb(170, 240, 209);
 }
 
-#footer{
-    width: 100%;
+footer{
     background-color: rgb(0, 255, 127);
-    height: 70px;
-    padding: 30px 0px 30px 0px;
-    margin-top: 20px;
 }
 
 #sozd{
