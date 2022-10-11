@@ -3,18 +3,18 @@ var alert;
 var console;
 
 function onClick() {
-    var r;
+    var a;
     var f1;
     var f2;
-    r = document.getElementById("result");
-    r.innerHTML = "";
+    a = document.getElementById("result");
+    a.innerHTML = "";
     f1 = document.getElementById("kol_tov").value;
     f2 = document.getElementById("price").value;
     if ((/\D/.test(f1)) || (/\D/.test(f2))) {
         alert("!!!Допускаются только цифры: 0-9!!!");
         return;
     }
-    r.innerHTML = f1 * f2;
+    a.innerHTML = f1 * f2;
 
 }
 
