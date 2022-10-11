@@ -4,17 +4,17 @@ var console;
 
 function onClick() {
     var r;
-    var a;
-    var b;
+    var f1;
+    var f2;
     r = document.getElementById("result");
     r.innerHTML = "";
-    a = document.getElementById("price").value;
-    b = document.getElementById("kol_tov").value;
-    if ((/\D/.test(a)) || (/\D/.test(b))) {
+    f1 = document.getElementById("kol").value;
+    f2 = document.getElementById("price").value;
+    if ((/\D/.test(f1)) || (/\D/.test(f2))) {
         alert("!!!Допускаются только цифры: 0-9!!!");
         return;
     }
-    r.innerHTML = a * b;
+    r.innerHTML = f1 * f2;
 
 }
 
