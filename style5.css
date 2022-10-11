@@ -1,0 +1,11 @@
+.content {
+max-width:500px;
+background-color: rgba(229, 111, 252, .1);
+text-align: center;
+height: 250px;
+margin: 0 auto;
+}
+#resultat {
+font-size: 50px;
+margin: 0 auto;
+}
