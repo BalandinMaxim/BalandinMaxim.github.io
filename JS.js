@@ -1,26 +1,18 @@
-var document;
-var alert;
-var console;
-
-function onClick() {
-    var a;
-    var x;
-    var y;
-    a = document.getElementById("result");
-    a.innerHTML = "";
-    x = document.getElementById("kol_tov").value;
-    y = document.getElementById("price").value;
-    if ((/\D/.test(x)) || (/\D/.test(y))) {
-        alert("!!!Допускаются только цифры: 0-9!!!");
-        return;
-    }
-    a.innerHTML = x * y;
-
+function onClick(){
+var kolvo=document.getElementById("kolvo").value;
+var stoim=document.getElementById("stoim").value;
+var result=document.getElementById("result");
+var a;
+var b;
+ result.innerHTML = "";
+a = kolvo;
+b = stoim;
+if (a>0 && a!=NaN && b>0 && b!=NaN)
+result.innerHTML=a*b;    
+else result.innerText="Данные введены неверно";    
 }
-
-document.addEventListener("DOMContentLoaded", function (event) {
+window.document.addEventListener("DOMContentLoaded", function (event) {
+    console.log("DOM fully loaded and parsed");
     var b = document.getElementById("btn");
-    console.log(event.type + " на " + event.currentTarget);
     b.addEventListener("click", onClick);
-
 });
