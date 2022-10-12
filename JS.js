@@ -1,18 +1,18 @@
 function onClick(){
-var kolvo=document.getElementById("kolvo").value;
-var stoim=document.getElementById("stoim").value;
+var kolvo=document.getElementById("koltov").value;
+var stoim=document.getElementById("cena").value;
 var result=document.getElementById("result");
-var a;
-var b;
+var x;
+var y;
  result.innerHTML = "";
-a = kolvo;
-b = stoim;
-if (a>0 && a!=NaN && b>0 && b!=NaN)
-result.innerHTML=a*b;    
+x = koltov;
+y = cena;
+if (x>0 && x!=NaN && y>0 && y!=NaN)
+result.innerHTML=x*y;    
 else result.innerText="Данные введены неверно";    
 }
 window.document.addEventListener("DOMContentLoaded", function (event) {
     console.log("DOM fully loaded and parsed");
-    var b = document.getElementById("btn");
-    b.addEventListener("click", onClick);
+    var y = document.getElementById("btn");
+    y.addEventListener("click", onClick);
 });
