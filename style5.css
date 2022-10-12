@@ -1,3 +1,7 @@
+body{
+  background-color:rgb(179,238,238);
+}
+
 .cont {
 max-width:600px;
 background-color: rgb(123, 104, 238);
