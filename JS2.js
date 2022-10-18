@@ -73,7 +73,7 @@ function updatePrice() {
     });
 
     prodPrice = document.getElementById("result");
-    prodPrice.innerHTML = (price * kol) + " рублей";
+    prodPrice.innerHTML = (price * kol);
     if (/\D/.test(kol)) {
         prodPrice.innerHTML = "Неверные данные";
     }
@@ -83,10 +83,10 @@ function getPrices() {
     return {
         prodOptions: {
             option2: 10,
-            option3: 5
+            option3: 20
         },
         prodProperties: {
-            prop1: 1
+            prop1: 5
         },
         prodTypes: [100, 200, 300]
     };
