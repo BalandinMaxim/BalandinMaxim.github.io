@@ -8,7 +8,7 @@ var y;
 x = koltov;
 y = cena;
 if (x>0 && x!=NaN && y>0 && y!=NaN)
-result.innerHTML=x*y;       
+result1.innerHTML=x*y;       
 }
 window.document.addEventListener("DOMContentLoaded", function (event) {
     console.log("DOM fully loaded and parsed");
