@@ -88,7 +88,7 @@ function getPrices() {
         prodProperties: {
             prop1: 1
         },
-        prodTypes: [100, 200, 150]
+        prodTypes: [100, 200, 300]
     };
 }
 
