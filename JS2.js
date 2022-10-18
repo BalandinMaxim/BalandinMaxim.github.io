@@ -26,7 +26,7 @@ function updatePrice() {
     var kol = document.getElementById("kol").value;
     var s = document.getElementsByName("prodType");
     var select = s[0];
-    var price = 0;
+    var price;
     var optionPrice;
     var checkDiv;
     var propPrice;
