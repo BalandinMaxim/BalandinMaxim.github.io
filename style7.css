@@ -1,0 +1,19 @@
+.q {
+text-align: center;
+margin: auto;
+padding-top: 400px;
+background-color: rgb(155, 155, 164);
+width: 1300px;
+height: 600px;
+}
+
+img {
+    max-width: 200px;
+}
+.slider {
+    position: relative;
+    padding: 0px 60px;
+}
+.slider__item {
+    text-align: center;
+}
