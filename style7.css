@@ -15,28 +15,28 @@ body{
     img{
         margin: 0 auto;
         padding: 0 auto;
-        height: calc(35vw*0.7);
-        width: 35vw;
-        max-width: 170px;
-        max-height: 100px;
+        height: 40vh;
+        width: 50vw;
+        max-width: 200px;
+        max-height: 120px;
     }
 }
 
 @media (min-width:960px) {
     .slider{
         text-align: center;
-        top: 10vh;
-        height: 100px;
-        width: 80vw;
+        top: 25vh;
+        height: 200px;
+        width: 100vw;
         max-width: 960px;
     }
     
     img{
         margin: 0 auto;
         padding: 0 auto;
-        height: calc(15vw*0.7);
-        width: 15vw;
-        max-width: 150px;
-        max-height: 105px;
+        height: 40vh;
+        width: 50vw;
+        max-width: 200px;
+        max-height: 120px;
     }
 }
