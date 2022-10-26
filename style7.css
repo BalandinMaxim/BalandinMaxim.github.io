@@ -1,6 +1,5 @@
 body{
     background-color: rgb(218, 112, 214);
-    justify-content: center;
 }
 
 @media (max-width:960px) {
