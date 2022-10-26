@@ -5,11 +5,10 @@ jQuery(function ($) {
             dots: true,
             responsive: [
                 {
-                    breakpoint: 560,
+                    breakpoint: 960,
                     settings: {
                         arrows: true,
                         dots: true,
-                        slidesToScroll: 1,
                         slidesToShow: 2
                     }
                 }
