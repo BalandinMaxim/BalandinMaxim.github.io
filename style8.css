@@ -25,7 +25,7 @@ textarea{
 	margin-top: 5vh;
 }
 @media (min-width: 400px ) {
-	#Form {
+	#myForm {
 		width: 25vw;
 		min-width: 300px;
 		height: 50vh;
@@ -48,7 +48,7 @@ textarea{
 	}
 }
 @media (max-width: 400px) {
-	#Form {
+	#myForm {
 		width: 80vw;
 		max-width: 300px;
 		height: 80vh;
@@ -84,7 +84,7 @@ textarea{
 	}
 }
 
-#Answer {
+#myOverlay {
     position: fixed;
     background: rgb(238, 130, 238);
     width: 80%; height: 80%;
