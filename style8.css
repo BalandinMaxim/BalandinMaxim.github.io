@@ -6,7 +6,7 @@ body{
 	background-color: rgb(216, 191, 216);
 }
 
-.myButton{
+.Bind{
 	margin-top:20vh;
 	height: 5vh;
 	width: 20vw;
@@ -25,7 +25,7 @@ textarea{
 	margin-top: 5vh;
 }
 @media (min-width: 400px ) {
-	#myForm {
+	#Form {
 		width: 25vw;
 		min-width: 300px;
 		height: 50vh;
@@ -48,7 +48,7 @@ textarea{
 	}
 }
 @media (max-width: 400px) {
-	#myForm {
+	#Form {
 		width: 80vw;
 		max-width: 300px;
 		height: 80vh;
@@ -84,7 +84,7 @@ textarea{
 	}
 }
 
-#myOverlay {
+#Answer {
     position: fixed;
     background: rgb(75, 0, 130);
     width: 80%; height: 80%;
