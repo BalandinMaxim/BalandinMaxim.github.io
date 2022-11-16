@@ -24,7 +24,7 @@ textarea{
 	justify-content: space-between;
 	margin-top: 5vh;
 }
-@media (min-width: 400px ) {
+@media (min-width: 300px ) {
 	#myForm {
 		width: 25vw;
 		min-width: 300px;
@@ -39,6 +39,7 @@ textarea{
 		opacity: 0.5;
 		z-index: 1;
 		text-align: center;
+		border-radius: 10%/50%;
 	}
 
 	.pole{
@@ -46,7 +47,7 @@ textarea{
 		text-align: left;
 	}
 }
-@media (max-width: 400px) {
+@media (max-width: 300px) {
 	#myForm {
 		width: 60vw;
 		max-width: 250px;
@@ -61,25 +62,26 @@ textarea{
 		opacity: 0.5;
 		z-index: 1;
 		text-align: center;
+		border-radius: 10%/50%;
 		
 	}
 
 	#email_polz{
-		max-width: 40vw;
+		max-width: 30vw;
 	}
 
 	#mes{
-		max-width: 40vw;
+		max-width: 30vw;
 	}
 
 	#name_polz{
-		max-width: 40vw;
+		max-width: 30vw;
 	}
 
 	.pole{
-		margin-top: 10vh;
+		margin-top: 4vh;
 		text-align: left;
-		max-width: 60vw;
+		max-width: 80vw;
 	}
 }
 
