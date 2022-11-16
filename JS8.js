@@ -2,12 +2,10 @@ function openForm() {
     history.pushState({page: 2}, "Form", "?form");
     return false;
 }
-
 function openHome() {
     history.replaceState({page: 1}, "Home", "?home");
     return false;
 }
-
 $(document).ready(function () {
     $(".myButton").click(function (event) {
         openForm();
@@ -39,7 +37,6 @@ $(document).ready(function () {
             openHome();
         });
     });
-
     $("#lete").click(function () {
         var slapform = new Slapform();
         $("#lete").prop("disabled", true);
@@ -63,7 +60,6 @@ $(document).ready(function () {
         localStorage.clear();
         return false;
     });
-
     addEventListener("popstate", function () {
         $("#myForm").animate({opacity: 0}, 198, function () {
             $(this).css("display", "none");
