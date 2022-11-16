@@ -16,25 +16,27 @@ body{
 	background-color: rgb(238, 130, 238);
 	border-radius: 25% 10%;
 }
-
-
+textarea{
+	resize: none;
+}
 #slide{
 	display: flex;
 	justify-content: space-between;
 	margin-top: 5vh;
 }
-
 @media (min-width: 400px ) {
 	#myForm {
 		width: 25vw;
 		min-width: 300px;
-		height: 40vh;
+		height: 50vh;
 		min-height: 400px;
-		padding: 18px 9px;
-		background-color: rgb(106, 90, 205);
+		padding: 20px 10px 50px;
+		background-color: rgb(106,90,205);
+		position: fixed;
 		top: 0; left: 0; right: 0; bottom: 0;
 		margin: auto;
 		display: none;
+		opacity: 0.5;
 		z-index: 1;
 		text-align: center;
 	}
@@ -44,39 +46,40 @@ body{
 		text-align: left;
 	}
 }
-
 @media (max-width: 400px) {
 	#myForm {
-		width: 80vw;
-		max-width: 300px;
-		height: 80vh;
-		max-height: 400px;
-		padding: 5px 9px;
-		background-color: rgb(106, 90, 205);
+		width: 60vw;
+		max-width: 250px;
+		height: 60vh;
+		max-height: 350px;
+		padding: 5px 9px 5px;
+		background-color: rgb(106,90,205);
+		position: fixed;
 		top: 0; left: 0; right: 0; bottom: 0;
 		margin: auto;
 		display: none;
+		opacity: 0.5;
 		z-index: 1;
 		text-align: center;
 		
 	}
 
 	#email_polz{
-		max-width: 60vw;
+		max-width: 40vw;
 	}
 
 	#mes{
-		max-width: 60vw;
+		max-width: 40vw;
 	}
 
 	#name_polz{
-		max-width: 60vw;
+		max-width: 40vw;
 	}
 
 	.pole{
 		margin-top: 10vh;
 		text-align: left;
-		max-width: 80vw;
+		max-width: 60vw;
 	}
 }
 
