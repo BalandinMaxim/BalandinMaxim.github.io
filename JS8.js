@@ -2,16 +2,18 @@ function openForm() {
     history.pushState({page: 2}, "Form", "?form");
     return false;
 }
+
 function openHome() {
     history.replaceState({page: 1}, "Home", "?home");
     return false;
 }
+
 $(document).ready(function () {
     $(".myButton").click(function (event) {
         openForm();
         event.preventDefault();
-        $("#Answer").fadeIn(297, function () {
-            $("#Form").css("display", "block").animate({opacity: 1}, 198);
+        $("#myOverlay").fadeIn(297, function () {
+            $("#myForm").css("display", "block").animate({opacity: 1}, 198);
         });
         if (localStorage.getItem("name").length > 0) {
             document.querySelector("#name_polz").value =
@@ -30,13 +32,14 @@ $(document).ready(function () {
         }
     });
 
-    $("#Answer, #close").click(function () {
-        $("#Form").animate({opacity: 0}, 198, function () {
+    $("#myOverlay, #close").click(function () {
+        $("#myForm").animate({opacity: 0}, 198, function () {
             $(this).css("display", "none");
-            $("#Answer").fadeOut(297);
+            $("#myOverlay").fadeOut(297);
             openHome();
         });
     });
+
     $("#lete").click(function () {
         var slapform = new Slapform();
         $("#lete").prop("disabled", true);
@@ -60,10 +63,11 @@ $(document).ready(function () {
         localStorage.clear();
         return false;
     });
+
     addEventListener("popstate", function () {
-        $("#Form").animate({opacity: 0}, 198, function () {
+        $("#myForm").animate({opacity: 0}, 198, function () {
             $(this).css("display", "none");
-            $("#Answer").fadeOut(297);
+            $("#myOverlay").fadeOut(297);
             openHome();
         });
     }, false);
