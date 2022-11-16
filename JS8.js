@@ -10,8 +10,8 @@ $(document).ready(function () {
     $(".myButton").click(function (event) {
         openForm();
         event.preventDefault();
-        $("#myOverlay").fadeIn(297, function () {
-            $("#myForm").css("display", "block").animate({opacity: 1}, 198);
+        $("#Answer").fadeIn(297, function () {
+            $("#Form").css("display", "block").animate({opacity: 1}, 198);
         });
         if (localStorage.getItem("name").length > 0) {
             document.querySelector("#name_polz").value =
@@ -30,10 +30,10 @@ $(document).ready(function () {
         }
     });
 
-    $("#myOverlay, #close").click(function () {
-        $("#myForm").animate({opacity: 0}, 198, function () {
+    $("#Answer, #close").click(function () {
+        $("#Form").animate({opacity: 0}, 198, function () {
             $(this).css("display", "none");
-            $("#myOverlay").fadeOut(297);
+            $("#Answer").fadeOut(297);
             openHome();
         });
     });
@@ -61,9 +61,9 @@ $(document).ready(function () {
         return false;
     });
     addEventListener("popstate", function () {
-        $("#myForm").animate({opacity: 0}, 198, function () {
+        $("#Form").animate({opacity: 0}, 198, function () {
             $(this).css("display", "none");
-            $("#myOverlay").fadeOut(297);
+            $("#Answer").fadeOut(297);
             openHome();
         });
     }, false);
